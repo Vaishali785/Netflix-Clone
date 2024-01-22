@@ -1,0 +1,58 @@
+.row {
+  margin-inline: 20px;
+  color: white;
+}
+img {
+  cursor: pointer;
+}
+.no-movie-largePoster{
+  min-height: 290px;
+
+}
+
+.row-posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  min-height: 110px;
+}
+
+.row-poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.row-poster:hover {
+  transform: scale(1.08);
+}
+
+.row-posters::-webkit-scrollbar,body::-webkit-scrollbar {
+  display: none;
+}
+
+.row-posterLarge {
+  max-height: 250px;
+}
+
+.row-posterLarge:hover {
+  transform: scale(1.09);
+}
+
+@media screen and (max-width: 767px) {
+  iframe{
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .row{
+    margin-inline: 10px;
+  }
+  .row-posters{
+    padding-left: 0;
+  }
+}

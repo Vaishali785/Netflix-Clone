@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// 18th Oct 2021
 import './App.css';
+import Banner from './components/Banner';
+import requests from './components/requests';
+import Row from './components/Row';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Banner />
+      <Row title="Popular Now" fetchUrl={requests.fetchPopular} isLargeRow />
+      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
+      <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
+      <Row title="Tom Cruise" fetchUrl={requests.fetchTomCruiseMovies} />
     </div>
   );
 }
