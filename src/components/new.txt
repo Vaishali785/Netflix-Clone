@@ -1,9 +1,0 @@
- async function fetchData(){
-             const request = await instance.get('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=e51ff8064a7895bf5fcb1dbb070354ac').then(res => {
-                console.log(res.data.results);
-                setMovies(res.data.results);
-            });
-            return request;
-        }
-        fetchData();
-    }, [fetchUrl]);

@@ -1,8 +1,12 @@
 import axios from 'axios';
 
-const instance= axios.create({
+// added token as some request need token
+const instance = axios.create({
     baseUrl: 'https://api.themoviedb.org/3',
+    headers: {
+        accept: 'application/json',
+        Authorization: `Bearer ${process.env.REACT_APP_ACCESS_TOKEN}`
+    }
 });
 
-// console.log(instance.get('/foo'));
 export default instance;
