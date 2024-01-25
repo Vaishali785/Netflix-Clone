@@ -19,9 +19,9 @@ function App() {
             <Row title="Top Rated" fetchUrl={requests.fetchTopRated} playTrailerInRow={playTrailerInRow} setPlayTrailerInRow={setPlayTrailerInRow} />
             <Row title="Animation" fetchUrl={requests.fetchAnimationMovies} playTrailerInRow={playTrailerInRow} setPlayTrailerInRow={setPlayTrailerInRow} />
             <Row title="Comedy" fetchUrl={requests.fetchComedyMovies} playTrailerInRow={playTrailerInRow} setPlayTrailerInRow={setPlayTrailerInRow} />
-            <Row title="Horror" fetchUrl={requests.fetchHorrorMovies} playTrailerInRow={playTrailerInRow} setPlayTrailerInRow={setPlayTrailerInRow} />
-            <Row title="Romance" fetchUrl={requests.fetchRomanceMovies} playTrailerInRow={playTrailerInRow} setPlayTrailerInRow={setPlayTrailerInRow} />
-            <Row title="Documentary" fetchUrl={requests.fetchDocumentaries} playTrailerInRow={playTrailerInRow} setPlayTrailerInRow={setPlayTrailerInRow} />
+            {/* <Row title="Horror" fetchUrl={requests.fetchHorrorMovies} playTrailerInRow={playTrailerInRow} setPlayTrailerInRow={setPlayTrailerInRow} /> */}
+            {/* <Row title="Romance" fetchUrl={requests.fetchRomanceMovies} playTrailerInRow={playTrailerInRow} setPlayTrailerInRow={setPlayTrailerInRow} /> */}
+            {/* <Row title="Documentary" fetchUrl={requests.fetchDocumentaries} playTrailerInRow={playTrailerInRow} setPlayTrailerInRow={setPlayTrailerInRow} /> */}
         </div>
     );
 }
