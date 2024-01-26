@@ -11,8 +11,6 @@ For a live demo, check out [Netflix Clone Demo](https://netflixbyvaishali.web.ap
 - [Tech Stack](#tech-stack)
 - [API](#api)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
