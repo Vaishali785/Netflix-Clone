@@ -16,6 +16,10 @@ For a live demo, check out [Netflix Clone Demo](https://netflixbyvaishali.web.ap
 
 This project is a Netflix clone developed with ReactJS, allowing users to browse a collection of movies and watch trailers for each. The application fetches movie data from a third-party API and uses the `react-youtube` library to embed YouTube trailers. Additionally, the `movie-trailer` library is employed to dynamically fetch YouTube trailer URLs.
 
+<div>
+    <img src='https://github.com/Vaishali785/Netflix-Clone/blob/main/src/assets/screenshots/home.png' width='600px'/>
+</div>
+
 ## Features
 
 - **Movie Listing**: Browse a comprehensive list of movies.
@@ -54,3 +58,4 @@ For a complete list of dependencies, refer to the `package.json` file.
 
 <!-- Master branch contains the original(first) hosted code, so don't change anything in it. -->
 <!-- Main branch contains the latest changed code, and the latest build of hosted website -->
+<!-- nvm v16 works here -->
