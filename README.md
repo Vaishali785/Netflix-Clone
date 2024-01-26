@@ -37,10 +37,11 @@ This Netflix clone uses the [TMDB (The Movie Database) API](https://www.themovie
 Create a `.env` file in the root of your project and add the following:
 
 ```env
-REACT_APP_TMDB_API_KEY=your_api_key_here
+REACT_APP_API_KEY=your_api_key_here
+REACT_APP_ACCESS_TOKEN=your_token_here
 ```
 
-Replace `your_api_key_here` with your actual TMDB API key.
+Replace `your_api_key_here` & `your_token_here` with your actual TMDB API key and token respectively.
 
 ## Dependencies
 
