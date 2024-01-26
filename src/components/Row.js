@@ -71,7 +71,7 @@ function Row({ title, fetchUrl, isLargeRow, playTrailerInRow, setPlayTrailerInRo
                 setPlayTrailerInRow(title);
             }
 
-            //run trailer
+            //fetch trailer
             movieTrailer(movie?.name || movie?.original_title || movie?.title, { tbdbId: movie?.id })
                 .then((url) => {
                     const urlParams = new URLSearchParams(new URL(url).search);
