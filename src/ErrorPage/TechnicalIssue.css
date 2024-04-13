@@ -1,0 +1,29 @@
+.repair-page{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: clamp(2rem,2vw,5rem);
+    overflow: hidden;
+}
+
+.repair-heading{
+    font-size: clamp(1.5rem,7vw,2.5rem);
+}
+
+.repair-img{
+    width: clamp(350px,50vw,50%);
+    /* margin-block: 2rem; */
+    /* flex: 1;
+    aspect-ratio: 1 / 1 ; */
+}
+
+.repair-text{
+    color: black;
+    /* width: clamp(max(100%,65%),50vw,60vw); */
+    text-align: center;
+}
