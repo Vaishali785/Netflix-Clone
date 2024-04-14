@@ -31,12 +31,11 @@ This project is a Netflix clone developed with ReactJS, allowing users to browse
 - **Frontend**: ReactJS + CSS
 - **YouTube Embedding**: `react-youtube`
 - **YouTube Trailer Fetching**: `movie-trailer`
-- **API**: TMDB (The Movie Database) API
 - **Hosting**: Firebase
 
 ## API
 
-This Netflix clone uses the [TMDB (The Movie Database) API](https://www.themoviedb.org/documentation/api) to fetch movie data. You will need to obtain an API key and set it in your project for the API calls to work.
+This Netflix clone uses the various APIs(given below) to fetch movie data and to play trailer. You will need to obtain an API key and set it in your project for the API calls to work.
 
 Create a `.env` file in the root of your project and add the following:
 
