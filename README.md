@@ -60,5 +60,5 @@ For a complete list of dependencies, refer to the `package.json` file.
 <!-- Main branch contains the latest changed code, and the latest build of hosted website -->
 <!-- nvm v16 works here -->
 <!-- Latest code is in netflixNew branch and that code is merged in this -->
-<!-- And this branch is hosted  -->
+<!-- And the main branch is hosted  -->
 <!-- Older version code is stored in netflixOld branch -->
